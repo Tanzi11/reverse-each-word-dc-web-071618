@@ -3,3 +3,5 @@ def reverse_each_word(sentence)
   reversed_sentence = new_sentence.each {|x| x.reverse!}
   return reversed_sentence.join(" ")
 end
+def reverse_each_word(sentence)
+  
